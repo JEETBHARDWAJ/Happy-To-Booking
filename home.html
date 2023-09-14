@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HAPPY-To-BOOKING</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="home.css" />
+  <link rel="logo" href="img logo.png" type="image/x-icon">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <a href="home.html" class="logo">
+      <i class="	fab fa-accusoft"></i> Happy To Booking
+    </a>
+    <nav class="navbar">
+      <a href="home.html" class="active">Home</a>
+      <a href="#about">about</a>
+      <a href="Services.html">services</a>
+      <a href="#contact">contact</a>
+      <a href="#">Blog</a>
+      <a href="dashbord.html">Dashbord</a>
+    </nav>
+    <div class="icons">
+      <i class="fas fa-bars" id="menu-btn"></i>
+      <a href="" #"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.instagram.com/happytobooking/"><i class="fab fa-instagram"></i></a>
+      <a href="signup.html"><i class="fas fa-user"></i></a>
+    </div>
+  </header>
+
+  <!-- Home Section -->
+  <section class="home">
+    <div class="container">
+      <div class="landing">
+        <div class="content">
+          <span>Happy To Booking (H'B)</span>
+          <h3>
+            be part <br />
+            of the new <br />
+            technologies
+          </h3>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="image">
+          <img src="img logo.png" style="mix-blend-mode: darken;" alt="logo" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- about Section -->
+  <section class="about" id="about">
+    <div class="image">
+      <img src="img logo.png" style="mix-blend-mode: darken;" alt="logo" />
+    </div>
+
+    <div class="content">
+      <h3>It make easy for your</h3>
+      <p>
+        we are doing your decorating work be easy without go anywhere.
+        we are the first indian online booking decorating of any function.
+        our design is best and we also provide best service.
+        you can be a par of our family.
+      </p>
+      <a href="#" class="btn">learn more</a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <h2>HB's services </h2>
+    <p>
+      decorate your multipule function with multiple design with multiple services
+    </p>
+    <div class="services-box">
+      <div class="box">
+        <h3>marriage Decoration</h3>
+        <p>
+          The most memorable time in any relationship is the hour when she said
+          yes to your marriage proposal; it is a period of deep emotion and
+          expression of unfettered love for one another.
+        </p>
+        <a href="#" class="btn">More</a>
+      </div>
+      <div class="box">
+        <h3>anniversary services</h3>
+        <p>
+          We provide you a memorable day like again those days comes when you both
+          are meet to each other forever.
+          so let's celebrate happiest one more year with each other.
+
+        </p>
+        <a href="#" class="btn">More</a>
+      </div>
+      <div class="box">
+        <h3>Birthday plan</h3>
+        <p>
+          Your birthday has come around after 365 days. That is a pretty long
+          time. Deal with the pressure because that how diamonds are made.
+          we are here for you .
+        </p>
+        <a href="#" class="btn">More</a>
+      </div>
+    </div>
+  </section>
+  <!-- Footer Section -->
+  <footer id="contact">
+    <div class="footer-content">
+      <div class="top">
+        <div class="logo-details">
+          <i class="fab fa-accusoft"></i>
+          <span class="logo_name">Happy to booking</span>
+        </div>
+      </div>
+      <div class="link-boxes">
+        <ul class="box">
+          <li class="link_name">Company</li>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Services</a></li>
+        </ul>
+        <ul class="box">
+          <li class="link_name">Developers</li>
+          <li><a href="#">Prince</a></li>
+          <li><a href="#">Jeet</a></li>
+          <li><a href="#">Hariom</a></li>
+          <!-- <li><a href="#">Paypal</a></li>
+            <li><a href="#">Wise wire</a></li> -->
+        </ul>
+        <ul class="box input-box">
+          <li class="link_name">Subscribe</li>
+          <li><input type="email" placeholder="Enter your Email" /></li>
+          <li><input type="button" value="Subscribe" /></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="bottom-details">
+      <div class="bottom_text">
+        <span class="copyright_text">Copyright ~ 2023 <a href="#">Code Info</a>All rights reserved</span>
+        <span class="policy_terms">
+          <a href="#">Priavcy policy</a>
+          <a href="#">terms and conditions</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    let navbar = document.querySelector(".navbar");
+
+    document.querySelector("#menu-btn").onclick = () => {
+      navbar.classList.toggle("active");
+    };
+  </script>
+</body>
+
+</html>
